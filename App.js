@@ -1,12 +1,7 @@
-import React from 'react';
-import {View, Text} from 'react-native';
+import React from 'react'
+import {View, Text} from 'react-native'
+import Login from './src/screens/Login'
 
-const App = () => {
-  return (
-    <View>
-      <Text>Local storage</Text>
-    </View>
-  );
-};
+const App = () => <Login />
 
-export default App;
+export default App
